@@ -14,7 +14,7 @@ hero:
       text: 了解更多
       link: /zh-hans/intro/
   image:
-    src: /static/logo.svg
+    src: /logo.svg
     alt: H2O-ac
 
 features:

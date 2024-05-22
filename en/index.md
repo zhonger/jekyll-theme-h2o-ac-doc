@@ -14,7 +14,7 @@ hero:
       text: Learn More
       link: /en/api-examples
   image:
-    src: /static/logo.svg
+    src: /logo.svg
     alt: H2O-ac
 
 features:

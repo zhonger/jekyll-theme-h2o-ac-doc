@@ -106,11 +106,11 @@ export default defineConfig({
     math: true
   },
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/static/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: '/static/logo.svg', width: 24, height: 24 },
+    logo: { src: '/logo.svg', width: 24, height: 24 },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zhonger/jekyll-theme-h2o-ac' }
     ],
