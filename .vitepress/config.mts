@@ -94,7 +94,7 @@ export default defineConfig({
           next: '下一页',
         },
         editLink: {
-          pattern: 'https://github.com/zhonger/jekyll-theme-h2o-ac-doc/:path',
+          pattern: 'https://github.com/zhonger/jekyll-theme-h2o-ac-doc/edit/main/:path',
           text: '编辑此页',
         },
         outlineTitle: '此页面目录',
