@@ -85,6 +85,7 @@ export default defineConfig({
               { text: '搜索', link: '/features/search' },
               { text: '图标', link: '/features/icons' },
               { text: 'PWA', link: '/features/pwa' },
+              { text: '简历', link: '/features/cv' },
             ]
           },
         ],
