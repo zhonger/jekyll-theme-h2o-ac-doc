@@ -7,84 +7,84 @@ export default defineConfig({
   description: "Documentation site for H2O-ac jekyll theme",
   locales: {
     root: {
-      label: 'English',
-      lang: 'en-US',
-      themeConfig: {
-        nav: [
-          { text: 'Docs', link: '/intro/' },
-        ],
-        sidebar: [
-          {
-            text: 'Introduction',
-            items: [
-              { text: 'Begining', link: '/intro/' },
-              { text: 'Files Structure', link: '/intro/structure' },
-              { text: 'How to Contribute', link: '/intro/contribution' },
-              { text: 'Quick Start', link: '/guide/quickstart' },
-            ]
-          },
-          {
-            text: 'Markdown',
-            items: [
-              { text: 'Basic', link: '/markdown/basic-grammars' },
-              { text: 'Code', link: '/markdown/code' },
-              { text: 'Gallery', link: '/markdown/gallery' },
-              { text: 'Flow', link: '/markdown/mermaid' },
-              { text: 'Meta Data', link: '/markdown/meta' },
-            ]
-          },
-          {
-            text: 'More features',
-            items: [
-              { text: 'International', link: '/features/i18n' },
-              { text: 'Visitor Analytic', link: '/features/analytic' },
-              { text: 'Comment', link: '/features/comment' },
-              { text: 'Search', link: '/features/search' },
-              { text: 'Icons', link: '/features/icons' },
-              { text: 'PWA', link: '/features/pwa' },
-            ]
-          },
-        ],
-      }
-    },
-    "zh-hans": {
+      // label: 'English',
+      // lang: 'en-US',
+      // themeConfig: {
+      //   nav: [
+      //     { text: 'Docs', link: '/intro/' },
+      //   ],
+      //   sidebar: [
+      //     {
+      //       text: 'Introduction',
+      //       items: [
+      //         { text: 'Begining', link: '/intro/' },
+      //         { text: 'Files Structure', link: '/intro/structure' },
+      //         { text: 'How to Contribute', link: '/intro/contribution' },
+      //         { text: 'Quick Start', link: '/guide/quickstart' },
+      //       ]
+      //     },
+      //     {
+      //       text: 'Markdown',
+      //       items: [
+      //         { text: 'Basic', link: '/basic/basic-grammars' },
+      //         { text: 'Code', link: '/basic/code' },
+      //         { text: 'Gallery', link: '/basic/gallery' },
+      //         { text: 'Flow', link: '/basic/mermaid' },
+      //         { text: 'Meta Data', link: '/basic/meta' },
+      //       ]
+      //     },
+      //     {
+      //       text: 'More features',
+      //       items: [
+      //         { text: 'International', link: '/features/i18n' },
+      //         { text: 'Visitor Analytic', link: '/features/analytic' },
+      //         { text: 'Comment', link: '/features/comment' },
+      //         { text: 'Search', link: '/features/search' },
+      //         { text: 'Icons', link: '/features/icons' },
+      //         { text: 'PWA', link: '/features/pwa' },
+      //       ]
+      //     },
+      //   ],
+      // }
+    // },
+    // "zh-hans": {
       label: '简体中文',
       lang: 'zh-hans',
-      link: '/zh-hans/',
+      link: '/',
       themeConfig: {
         nav: [
-          { text: '文档', link: '/zh-hans/intro/' },
+          { text: '文档', link: '/intro/' },
         ],
         sidebar: [
           {
             text: '简介',
             items: [
-              { text: '缘起', link: '/zh-hans/intro/' },
-              { text: '文件结构', link: '/zh-hans/intro/structure' },
-              { text: '如何贡献', link: '/zh-hans/intro/contribution' },
-              { text: '快速上手', link: '/zh-hans/intro/quickstart' },
-              { text: '更新日志', link: '/zh-hans/intro/changelog' },
+              { text: '缘起', link: '/intro/' },
+              { text: '文件结构', link: '/intro/structure' },
+              { text: '如何贡献', link: '/intro/contribution' },
+              { text: '快速上手', link: '/intro/quickstart' },
+              { text: '更新日志', link: '/intro/changelog' },
             ]
           },
           {
-            text: 'Markdown',
+            text: '基本使用',
             items: [
-              { text: '基本语法', link: '/zh-hans/markdown/basic-grammars' },
-              { text: '代码', link: '/zh-hans/markdown/code' },
-              { text: '图库', link: '/zh-hans/markdown/gallery' },
-              { text: '流程图', link: '/zh-hans/markdown/mermaid' },
-              { text: '元信息', link: '/zh-hans/markdown/meta' },
+              { text: '页面配置', link: '/basic/meta' },
+              { text: '全局配置', link: '/basic/config' },
+              { text: '基本语法', link: '/basic/markdown' },
+              { text: '图库与懒加载', link: '/basic/gallery' },
+              { text: '流程图', link: '/basic/mermaid' },
             ]
           },
           {
             text: '更多特性',
             items: [
-              { text: '多语言支持', link: '/zh-hans/features/i18n' },
-              { text: '访问统计', link: '/zh-hans/features/analytic' },
-              { text: '评论', link: '/zh-hans/features/comment' },
-              { text: '搜索', link: '/zh-hans/features/search' },
-              { text: '图标', link: '/zh-hans/features/icons' },
-              { text: 'PWA', link: '/zh-hans/features/pwa' },
+              { text: '国际化', link: '/features/i18n' },
+              { text: '访问统计', link: '/features/analytic' },
+              { text: '评论', link: '/features/comment' },
+              { text: '搜索', link: '/features/search' },
+              { text: '图标', link: '/features/icons' },
+              { text: 'PWA', link: '/features/pwa' },
             ]
           },
         ],
@@ -126,6 +126,6 @@ export default defineConfig({
     },
   },
   rewrites: {
-    'en/(.*)': '(.*)',
+    'zh-hans/(.*)': '(.*)',
   }
 })

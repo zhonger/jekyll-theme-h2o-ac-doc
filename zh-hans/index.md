@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 快速上手
-      link: /zh-hans/intro/quickstart
+      link: /intro/quickstart
     - theme: alt
       text: 了解更多
-      link: /zh-hans/intro/
+      link: /intro/
   image:
     src: /logo.svg
     alt: H2O-ac
