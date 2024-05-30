@@ -115,8 +115,14 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zhonger/jekyll-theme-h2o-ac' }
     ],
+    
     search: {
-      provider: 'local'
+      provider: 'algolia',
+      options: {
+        appId: 'UHC7SEFT5V',
+        apiKey: '43306c614372fbe934837f4a3f07451f',
+        indexName: 'h2o-ac-lisz',
+      }
     },
     footer: {
       message: 'Released under the MIT License.',
