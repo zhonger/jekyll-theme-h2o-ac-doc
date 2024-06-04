@@ -108,6 +108,12 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['script', 
+      {
+        src: 'https://umami.lisz.top/pwiki.js', 
+        'data-website-id': 'c02be886-8200-4cc4-90e1-ad34cb46a9df',
+      }
+    ]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -115,7 +121,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zhonger/jekyll-theme-h2o-ac' }
     ],
-    
     search: {
       provider: 'algolia',
       options: {
