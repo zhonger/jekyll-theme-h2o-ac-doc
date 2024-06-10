@@ -113,6 +113,15 @@ export default defineConfig({
         src: 'https://umami.lisz.top/pwiki.js', 
         'data-website-id': 'c02be886-8200-4cc4-90e1-ad34cb46a9df',
       }
+    ],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-D8RWF7JLY9' }
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-D8RWF7JLY9');"
     ]
   ],
   themeConfig: {
