@@ -37,7 +37,7 @@
 
 <img src="https://img.foreverblog.cn/logo_en_default.png" class="badge"/>
 <img src="https://img.foreverblog.cn/wormhole_3.gif" class="badge" />
-<img src="https://www.travellings.cn/assets/logo.gif" class="badge" />
+<img src="https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/logo.gif" class="badge" />
 <img src="https://notbyai.fyi/img/written-by-human-not-by-ai-white.svg" class="badge" />
 
 ::: tip 提示
