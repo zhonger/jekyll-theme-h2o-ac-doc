@@ -2,6 +2,42 @@
 
 ## v1
 
+### <Badge type="tip" text="v1.5.0" />
+**新特性：**
+- 支持更多统计分析工具，包括 [Shynet](https://github.com/milesmcc/shynet)、[Plausible](https://plausible.io/)、[Fathom](https://usefathom.com/)、[Ackee](https://ackee.electerious.com/) 和 [Matomo](https://matomo.org/)
+
+**修复：**
+- 修复 `fancybox` 的 `link` 标签缺失
+
+### <Badge type="tip" text="v1.4.0" />
+**新特性：**
+- 支持更多评论系统，包括 [Artalk](https://artalk.js.org/)、[Utterances](https://utterances.es/)、[Giscus](https://giscus.app/) 和 [Twikoo](https://twikoo.js.org/)
+- 支持更多底部支持图标，包括 [Netlify](https://netlify.com/)、[Vercel](https://vercel.com/) 和 [Cloudflare](https://www.cloudflare.com/)
+- 支持 [MOE 备案号](https://icp.gov.moe/) 显示
+
+**修复：**
+- 修复多评论切换按钮
+- 修复文章元信息中的图片提供者信息的样式
+- 升级所有 CSS/JS 依赖库到（自动）最新版本
+
+### <Badge type="tip" text="v1.3.6" />
+**新特性：**
+- 支持**自托管不蒜子**
+
+**修复：**
+- 为 `foreverblog`、`虫洞`、`开往`切换本地图标
+
+### <Badge type="tip" text="v1.3.5" />
+**修复：**
+- 移除 `tags.html` 冗余的页面顶部导航（<Badge type="tip" text="v1.3.6" /> 版本后才生效）
+- 在 `README.md` 文件中增加文档链接
+
+### <Badge type="tip" text="v1.3.4" />
+**修复：**
+- 更新“开往” LOGO 图标为 CDN 引用
+- 移除 `404.html` 冗余的页面顶部导航
+- 调整有序列表 `ul>li` 的行高为 1.8 倍
+
 ### <Badge type="tip" text="v1.3.3" />
 **修复：**
 - 删除 `app.min.css` 和 `app.min.js` 链接中的无用空格

@@ -16,6 +16,7 @@
 | `tags` | 否 | 标签，可以是任意多个。 |
 | `pin` | 否 | 是否置顶，`true` （是）或 `false`（否）。 |
 | `submenu` | 否 | 子目录，适用于页面集合，需提前在 `_data/collections.yml` 中定义。 |
+| `comments` | 否 | 评论系统，适用于单独页面或覆盖全局配置。 |
 
 如下为一个示例文件 `2021-12-22-new-theme-h2o-ac.md`：
 
@@ -42,6 +43,13 @@ tags:
 - 运维
 pin: true
 submenu: 'begin'
+comments:
+  disqus: false
+  waline: false
+  artalk: false
+  utterances: false
+  giscus: false
+  twikoo: false
 ---
 ```
 

@@ -39,7 +39,7 @@ sns:   # 彩色社交图标，默认无配置，按需添加。
 
 
 #### 主题信息
-version: 1.3.3          # 主题版本，无须自行设置，请采用默认配置。
+version: 1.5.0          # 主题版本，无须自行设置，请采用默认配置。
 theme-color: default    # 站点主题色，默认（蓝色，default）和粉色（pink）
 postPatters: 'circuitBoard' # 页面封面默认模式，仅在未定义封面图时生效。
 # 支持 circuitBoard，overlappingCircles，food，
@@ -75,12 +75,16 @@ supports: # 赞助商徽章
   upyun: true              # 又拍云
   webify: false            # 腾讯云 Webify
 badges:  # 其他徽章
+  netlify: true            # Netlify
+  vercel: true             # Vercel
+  cloudflare: true         # Cloudfalre
   foreverblog: true        # Foreverblog
   wormhole: true           # Wormhole
   travelling: true         # Travelling
   notbyAI: true            # NotByAI
 cclicense: true  # 是否以 Creative Commons 协议共享文章内容版权
 beian: '沪ICP备xxxxxxxx号'  # ICP 备案信息
+moe_beian: ''              # MOE 备案信息
 ##### 国际化
 languages: ['zh-Hans', 'zh-Hant', 'en', 'ja']  # 国际化语言支持列表
 default_lang: 'zh-Hans'  # 默认语言
@@ -164,6 +168,23 @@ comments:
   waline_url: 'https://h2o-ac-waline.deta.dev/'     # Waline 链接
   waline_reaction: true  # 是否开启 Waline 表情反馈，以下为自定义本地化配置。
   waline_locale: "{reaction0: '赞一个', reaction1: '踩一下', reaction2: '有点酷', reaction3: '看不懂', reaction4: '啥玩意', reaction5: '想睡觉'}"
+  artalk: false  # 是否开启 Artalk 评论
+  artalk_url: 'https://artalk.lisz.top'  # Artalk 链接
+  artalk_name: 'h2o-ac'  # Artalk 项目名称
+  artalk_uaBadge: false  # 是否显示 UserAgent
+  utterances: false  # 是否开启 Utterances 评论
+  utterances_url: 'https://utteranc.es/client.js'  # Utterances 链接
+  utterances_repo: 'zhonger/utterances-comments'  # Github 项目
+  giscus: false  # 是否开启 Giscus 评论
+  giscus_url: 'https://giscus.app/client.js'  # Giscus 链接
+  giscus_repo: 'zhonger/giscus-comments'  # Github 项目
+  giscus_repo_id: 'R_kgDONLt80A'  # 项目 id，请使用 https://giscus.app 获得
+  giscus_category_id: 'DIC_kwDONLt80M4CkDnG'  # 类别 id，请使用 https://giscus.app 获得
+  giscus_lang: 'zh-CN'  # Giscus 本地化配置
+  twikoo: false  # 是否开启 Twikoo 评论
+  twikoo_url: 'https://twikoo.lisz.top'  # Twikoo 链接
+  # twikoo_region: 'ap-shanghai'  # 云区域，当且仅当使用腾讯云函数部署时使用
+  twikoo_lang: 'zh-CN'  # Twikoo 本地化配置
 #### 站点统计功能
 cnzz:  '111111111'                   # CNZZ 站长统计
 busuanzi: true                       # Busuanzi 不蒜子统计
@@ -173,4 +194,19 @@ umami:                               # Umami 统计
   status: true
   id: '{Umami ID}'
   js: 'https://umami.jekyll-theme-h2o-ac.com/umami.js'
+shynet: false                                 # Shynet 统计
+shynet_url: ''
+plausible: false                              # Plausible 统计
+plausible_domain: 'example.com'
+plausible_url: ''
+# plausible_js: ''                            # 使用自定义 js 文件时定义
+fathom: false                                 # Fathom 统计
+fathom_id: ''
+ackee: false                                  # Ackee 统计
+ackee_url: ''
+ackee_id: ''
+# ackee_js: ''                                # 使用自定义 js 文件时定义
+matomo: false                                 # Matomo 统计
+matomo_url: ''
+matomo_id: ''
 ```

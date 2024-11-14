@@ -40,10 +40,10 @@ H2O 主题其实在很大程度上已经满足了大部分人的需求，只是�
 ### 丰富的插件支持
 
 - **多语言支持**<Badge type="warning" text="1.2.0 版本之后" />：以页面作为最基本的多语言支持单位，目前支持简体中文、繁体中文、英文、日文四种语言。
-- **访问统计**<Badge type="tip" text="开发中" />：目前支持谷歌统计、百度统计、CNZZ 统计、不蒜子统计、Umami 统计，后续将继续增加其他统计方式。
-- **评论**<Badge type="tip" text="开发中" />：目前支持 Disqus 和 Waline，后续将继续增加其他评论方式。
-- **搜索**<Badge type="tip" text="开发中" />：目前仅支持本地搜索，后续将继续增加其他搜索方式。
-- **图标**：支持 [Forever Blog](https://www.foreverblog.cn/)、[Not by AI](https://notbyai.fyi/)、[Upyun](https://www.upyun.com) 赞助、Webify 图标，未来将增加 [Netlify](https://netlify.com)、[Vercel](https://vercel.com)、[Cloudflare](https://cloudflare.com)、[Deta](https://deta.space)、[Travellings](https://www.travellings.cn) 等图标。
+- **访问统计**<Badge type="warning" text="1.5.0 版本之后" />：目前支持谷歌统计、百度统计、CNZZ 统计、不蒜子统计（含自托管）、Umami 统计、Shynet 统计、Plausible 统计、Fathom 统计、Ackee 统计 和 Matomo 统计。
+- **评论**<Badge type="warning" text="1.4.0 版本之后" />：目前支持 Disqus、Waline、Artalk、Utterances、Giscus 和 Twikoo。
+- **搜索**<Badge type="tip" text="开发中" />：目前支持本地搜索和 DocSearch 搜索（Algolia 搜索的开源项目免费版），后续将继续增加其他搜索方式。
+- **图标**：支持 [Forever Blog](https://www.foreverblog.cn/)、[Not by AI](https://notbyai.fyi/)、[Upyun](https://www.upyun.com) 赞助、Webify 图标、[Netlify](https://netlify.com)、[Vercel](https://vercel.com)、[Cloudflare](https://cloudflare.com)、[Travellings](https://www.travellings.cn) 图标，未来可能支持 [Deta](https://deta.space) 等图标。
 - **PWA**：支持将站点一键变成渐进式 Web 应用，提升读者的用户体验。
 - **消息推送**：使用 [Webpushr](https://www.webpushr.com/) 实现来自站长的主动消息推送，可以用于向订阅用户推送文章推荐或者发布紧急消息。
 - **页面间侧导航**<Badge type="warning" text="1.3.0 版本之后" />：将支持页面间的自定义导航，适合系列文章或文档类型文章使用。

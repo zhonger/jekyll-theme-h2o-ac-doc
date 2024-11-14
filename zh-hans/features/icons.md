@@ -33,12 +33,18 @@
 - [虫洞 Wormhole](https://www.foreverblog.cn/go.html)
 - [开往 Travelling](https://www.travellings.cn/go.html)
 - [Not By AI](https://notbyai.fyi/)
+- [Netlify](https://netlify.com/)
+- [Vercel](https://vercel.com/) 
+- [Cloudflare](https://www.cloudflare.com/)
 
 
 <img src="https://img.foreverblog.cn/logo_en_default.png" class="badge"/>
 <img src="https://img.foreverblog.cn/wormhole_3.gif" class="badge" />
 <img src="https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/logo.gif" class="badge" />
 <img src="https://notbyai.fyi/img/written-by-human-not-by-ai-white.svg" class="badge" />
+<img src="https://h2o-ac.lisz.me/assets/icons/netlify-icon-light.svg" class="badge" />
+<img src="https://h2o-ac.lisz.me/assets/icons/vercel-logotype-dark.png" class="badge" />
+<img src="https://h2o-ac.lisz.me/assets/icons/cloudflare-logo.webp" class="badge" />
 
 ::: tip 提示
 由于目前徽章采用的是固定代码方式，如果大家有对于赞助商或其他徽章的需求，欢迎 [提交 Issue](https://github.com/zhonger/jekyll-theme-H2O-ac/issues/new)。
