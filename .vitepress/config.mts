@@ -106,6 +106,10 @@ export default defineConfig({
   markdown: {
     math: true
   },
+  sitemap: {
+    hostname: "https://h2o-ac-doc.lisz.me/",
+    lastmodDateOnly: true,
+  },
   head: [
     ['meta', { name: 'google-site-verification', content: 'v729JR7Zs4nX-YvgaPeo3p1ise9vTA-6cMhamSu6N5c'}],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],

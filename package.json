@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "markdown-it-mathjax3": "^4.3.2",
+    "sitemap": "^8.0.0",
     "vitepress": "^1.2.2"
   }
 }
