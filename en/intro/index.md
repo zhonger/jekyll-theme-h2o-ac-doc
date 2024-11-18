@@ -1,6 +1,6 @@
 # The begining
 
-As you know, **Jekyll** is a highly customizable and very popular static blog generator. There are many excellent themes based on Jekyll, such as [H2O]((https://github.com/kaeyleo/jekyll-theme-H2O)) theme developed by [Liao Keyu]((https://github.com/kaeyleo)). It may be one of the most beautiful Jekyll themes due to many features, including *simple layout, flat design, card based design, visual style of Medium and Zhihu* and others.
+As you know, **Jekyll** is a highly customizable and very popular static blog generator. There are many excellent themes based on Jekyll, such as [H2O](https://github.com/kaeyleo/jekyll-theme-H2O) theme developed by [Liao Keyu](https://github.com/kaeyleo). It may be one of the most beautiful Jekyll themes due to many features, including *simple layout, flat design, card based design, visual style of Medium and Zhihu* and others.
 
 In the begining, `H2O` theme is released and open sourced in Github with MIT license. This has attracted a lot of bloggers to switch to Jekyll and `H2O` theme, including me. As more and more bloggers use `H2O` theme, some problems and solutions have been contributed to the `H2O` project, which makes `H2O` better. I also modified some codes based on `H2O` theme and my actual need in practice. Considering these modification may be not needed for most of users of `H2O` theme, I forked the `H2O` project and contributed my code to the new project [zhonger/jekyll-theme-H2O-ac](https://github.com/zhonger/jekyll-theme-h2o-ac), which is released in Github with the same MIT license.
 

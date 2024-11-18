@@ -66,7 +66,7 @@ $$
 
 The codeblock is used like normal way and supports the languages listed in [PrismJS website](https://prismjs.com/#supported-languages) with automatic display。
 
-`H2O-ac` supports all default and [extended themes]((https://github.com/PrismJS/prism-themes/tree/master/themes)) in PrismJS anf autoloads the JS needed as follows:
+`H2O-ac` supports all default and [extended themes](https://github.com/PrismJS/prism-themes/tree/master/themes) in PrismJS anf autoloads the JS needed as follows:
 
 ```yaml
 prism:
