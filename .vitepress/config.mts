@@ -7,47 +7,7 @@ export default defineConfig({
   description: "Documentation site for H2O-ac jekyll theme",
   locales: {
     root: {
-      // label: 'English',
-      // lang: 'en-US',
-      // themeConfig: {
-      //   nav: [
-      //     { text: 'Docs', link: '/intro/' },
-      //   ],
-      //   sidebar: [
-      //     {
-      //       text: 'Introduction',
-      //       items: [
-      //         { text: 'Begining', link: '/intro/' },
-      //         { text: 'Files Structure', link: '/intro/structure' },
-      //         { text: 'How to Contribute', link: '/intro/contribution' },
-      //         { text: 'Quick Start', link: '/guide/quickstart' },
-      //       ]
-      //     },
-      //     {
-      //       text: 'Markdown',
-      //       items: [
-      //         { text: 'Basic', link: '/basic/basic-grammars' },
-      //         { text: 'Code', link: '/basic/code' },
-      //         { text: 'Gallery', link: '/basic/gallery' },
-      //         { text: 'Flow', link: '/basic/mermaid' },
-      //         { text: 'Meta Data', link: '/basic/meta' },
-      //       ]
-      //     },
-      //     {
-      //       text: 'More features',
-      //       items: [
-      //         { text: 'International', link: '/features/i18n' },
-      //         { text: 'Visitor Analytic', link: '/features/analytic' },
-      //         { text: 'Comment', link: '/features/comment' },
-      //         { text: 'Search', link: '/features/search' },
-      //         { text: 'Icons', link: '/features/icons' },
-      //         { text: 'PWA', link: '/features/pwa' },
-      //       ]
-      //     },
-      //   ],
-      // }
-    // },
-    // "zh-hans": {
+      
       label: '简体中文',
       lang: 'zh-hans',
       link: '/',
@@ -98,6 +58,49 @@ export default defineConfig({
           text: '编辑此页',
         },
         outlineTitle: '此页面目录',
+      },
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      themeConfig: {
+        nav: [
+          { text: 'Docs', link: '/en/intro/' },
+        ],
+        sidebar: [
+          {
+            text: 'Introduction',
+            items: [
+              { text: 'Begining', link: '/en/intro/' },
+              { text: 'Files Structure', link: '/en/intro/structure' },
+              { text: 'How to Contribute', link: '/en/intro/contribution' },
+              { text: 'Quick Start', link: '/en/intro/quickstart' },
+              { text: 'Changelog', link: '/en/intro/changelog' },
+            ]
+          },
+          {
+            text: 'Basic',
+            items: [
+              { text: 'Page Config', link: '/en/basic/meta' },
+              { text: 'Site Config', link: '/en/basic/config' },
+              { text: 'Markdown', link: '/en/basic/markdown' },
+              { text: 'Gallery', link: '/en/basic/gallery' },
+              { text: 'Flow', link: '/en/basic/mermaid' },
+            ]
+          },
+          {
+            text: 'More features',
+            items: [
+              { text: 'Internationalization', link: '/en/features/i18n' },
+              { text: 'Visitor Analytic', link: '/en/features/analytic' },
+              { text: 'Comment', link: '/en/features/comment' },
+              { text: 'Search', link: '/en/features/search' },
+              { text: 'Icons & Badges', link: '/en/features/icons' },
+              { text: 'PWA', link: '/en/features/pwa' },
+              { text: 'CV', link: '/en/features/cv' },
+            ]
+          },
+        ],
       }
     }
   },
